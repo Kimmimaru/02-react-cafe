@@ -1,0 +1,20 @@
+.container {
+  background-color: #f1f3f5;
+  border: 1px solid #d3d6da;
+  padding: 16px;
+  border-radius: 8px;
+  width: 260px;
+  text-align: left;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.02);
+}
+
+.stat {
+  margin: 8px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.stat strong {
+  color: #2b6cb0;
+  font-weight: 600;
+}
