@@ -1,7 +1,6 @@
-import React from "react";
 import css from "./CafeInfo.module.css";
 
-function CafeInfo(): JSX.Element {
+function CafeInfo() {
   return (
     <div className={css.container}>
       <h1 className={css.title}>Sip Happens Café</h1>

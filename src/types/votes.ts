@@ -6,4 +6,3 @@ export interface Votes {
   bad: number;
 }
 
-export default Votes;

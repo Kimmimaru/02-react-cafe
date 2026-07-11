@@ -1,4 +1,4 @@
-import React from "react";
+
 import css from "./VoteStats.module.css";
 import type { Votes } from "../../types/votes";
 
@@ -12,7 +12,7 @@ function VoteStats({
   votes,
   totalVotes,
   positiveRate,
-}: VoteStatsProps): JSX.Element {
+}: VoteStatsProps) {
   return (
     <div className={css.container}>
       <p className={css.stat}>

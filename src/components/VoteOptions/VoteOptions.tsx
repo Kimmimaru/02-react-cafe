@@ -1,4 +1,4 @@
-import React from "react";
+
 import css from "./VoteOptions.module.css";
 import type { VoteType } from "../../types/votes";
 
@@ -12,7 +12,7 @@ function VoteOptions({
   onVote,
   onReset,
   canReset = true,
-}: VoteOptionsProps): JSX.Element {
+}: VoteOptionsProps) {
   return (
     <div className={css.container}>
       <button
