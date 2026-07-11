@@ -8,7 +8,7 @@ import type { Votes, VoteType } from "./types/votes";
 
 const initialVotes: Votes = { good: 0, neutral: 0, bad: 0 };
 
-function App(): JSX.Element {
+function App() {
   const [votes, setVotes] = useState<Votes>(initialVotes);
 
   const handleVote = (type: VoteType) => {
