@@ -43,6 +43,21 @@ export default defineConfig([
 ]);
 ```
 
+## Deployment & Submission
+
+1. Repository: https://github.com/Kimmimaru/02-react-cafe
+2. Live demo (Vercel): add after deploying — I can deploy for you or provide instructions.
+
+To deploy with Vercel CLI:
+
+```bash
+npm i -g vercel
+vercel login
+vercel --prod
+```
+
+Once deployed, add the Vercel URL here and submit both links.
+
 You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
 
 ```js
