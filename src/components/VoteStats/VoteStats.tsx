@@ -1,14 +1,18 @@
-import React from 'react'
-import css from './VoteStats.module.css'
-import type { Votes } from '../../types/votes'
+import React from "react";
+import css from "./VoteStats.module.css";
+import type { Votes } from "../../types/votes";
 
 export interface VoteStatsProps {
-  votes: Votes
-  totalVotes: number
-  positiveRate: number
+  votes: Votes;
+  totalVotes: number;
+  positiveRate: number;
 }
 
-function VoteStats({ votes, totalVotes, positiveRate }: VoteStatsProps): JSX.Element {
+function VoteStats({
+  votes,
+  totalVotes,
+  positiveRate,
+}: VoteStatsProps): JSX.Element {
   return (
     <div className={css.container}>
       <p className={css.stat}>
@@ -27,7 +31,7 @@ function VoteStats({ votes, totalVotes, positiveRate }: VoteStatsProps): JSX.Ele
         Positive: <strong>{positiveRate}%</strong>
       </p>
     </div>
-  )
+  );
 }
 
-export default VoteStats
+export default VoteStats;

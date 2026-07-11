@@ -1,5 +1,5 @@
-import React from 'react'
-import css from './CafeInfo.module.css'
+import React from "react";
+import css from "./CafeInfo.module.css";
 
 function CafeInfo(): JSX.Element {
   return (
@@ -9,7 +9,7 @@ function CafeInfo(): JSX.Element {
         Please rate our service by selecting one of the options below.
       </p>
     </div>
-  )
+  );
 }
 
-export default CafeInfo
+export default CafeInfo;
