@@ -3,7 +3,8 @@
   border: 1px solid #d3d6da;
   padding: 16px;
   border-radius: 8px;
-  width: 260px;
+  width: 100%;
+  max-width: 100%;
   text-align: left;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.02);
 }
